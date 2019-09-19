@@ -12,6 +12,7 @@ gem 'pry'
 gem 'bcrypt'
 gem "tux"
 gem 'faker'
+gem 'activerecord-reset-pk-sequence', '~> 0.2.0'
 
 group :test do
   gem 'rspec'
