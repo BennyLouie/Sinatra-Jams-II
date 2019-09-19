@@ -21,11 +21,11 @@ In recording the instruments in the database, Jams Inc. would like to see the fo
   * A nice to have feature: On the artist's show page, have each of the instruments listed link to the respective show page of the instrument (see below).
 
 
-* A dynamically generated show page for a single instrument that show its `name` and `brand`, as well as a list of artists that play that specific instrument.
+<!-- * A dynamically generated show page for a single instrument that show its `name` and `brand`, as well as a list of artists that play that specific instrument. -->
 
 <!-- * An index page for all the instruments in your database. -->
 
-  * A nice to have feature: On the index page, clicking on the name of the instrument would link the user to the instrument's show page.
+  <!-- * A nice to have feature: On the index page, clicking on the name of the instrument would link the user to the instrument's show page. -->
 
 
 After you have completed these deliverables, save and commit your code! Make sure everyone you're working with feels comfortable with the code and then, take a deep breath because we still have some work to do! 😤
