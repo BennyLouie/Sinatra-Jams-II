@@ -2,7 +2,11 @@
 <h1><%= @instrument.brand %></h1>
 <h2>Artists who play <%@instrument.name%></h2>
 <ol>
-  <%@instrument.artists.each do |artist|%>
-    <li> <%=artist.name%></li>
+  <% @instrument.artists.each do |artist|%>
+  <li>
+    <a href="/artists/<%=artist.id%>">
+      <%=artist.name%>
+      </a>
+    </li>
   <%end%>
 </ol>

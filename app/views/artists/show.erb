@@ -4,7 +4,11 @@
 <p>Instruments<p>
 <ol>
     <% @artist.instruments.each do |instrument| %>
-        <li><%= instrument.name %></li>
+    <li>
+      <a href="/instruments/<%= instrument.id%>">
+        <%= instrument.name %>
+      </a>
+    </li>
     <% end %>
 </ol>
 
