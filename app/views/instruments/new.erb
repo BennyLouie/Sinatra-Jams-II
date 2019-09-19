@@ -1,0 +1,8 @@
+<h1>Log in a new instrument!</h1>
+<form action="/instruments" method="post">
+<input type="text" name="instrument[name]" value="<%=@instrument.name%>" placeholder="Name of Instrument"/>
+<br/>
+<input type="text" name="instrument[brand]" value="<%=@instrument.brand%>" placeholder="Brand of Instrument"/>
+<br/>
+<input type="submit" value="Log a New Instrument"/>
+</form>
