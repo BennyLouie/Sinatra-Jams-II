@@ -1,0 +1,9 @@
+<h1>Instruments</h1>
+
+<ol>
+    <% @instruments.each do |instrument| %>
+        <a href="/instruments/<%= instrument.id %>">
+            <li><%= instrument.name %></li>
+        </a>
+    <% end %>
+</ol>

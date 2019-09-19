@@ -9,14 +9,14 @@ At this point, you should be considering the relationship between an `Artist` in
 
 In recording the instruments in the database, Jams Inc. would like to see the following deliverables implemented:
 
-* A database of `Instrument`s that will allow for a `name` string and a `brand` string. If you create your database properly, you should be able to seed your database with the given `seeds.rb` file.
+<!-- * A database of `Instrument`s that will allow for a `name` string and a `brand` string. If you create your database properly, you should be able to seed your database with the given `seeds.rb` file. -->
 
-* A feature to keep track of which artists play which instruments. This feature should be designed with the intention to keep the Single Source of Truth in regards to their relationship intact, which means you may need to alter your database somehow. Where should this relationship live?
+<!-- * A feature to keep track of which artists play which instruments. This feature should be designed with the intention to keep the Single Source of Truth in regards to their relationship intact, which means you may need to alter your database somehow. Where should this relationship live? -->
+<!-- 
+  * After you figure out a way to keep track of which artists play which instruments, alter the `seeds.rb` file so that some artists and instruments are related. Implement this however way it makes sense to you, but make sure that you checkout your relationships in  `rake console`. -->
 
-  * After you figure out a way to keep track of which artists play which instruments, alter the `seeds.rb` file so that some artists and instruments are related. Implement this however way it makes sense to you, but make sure that you checkout your relationships in  `rake console`.
 
-
-* In a specific artist's show page, the names of the instruments that the artist plays should be dynamically listed. When you're building out this feature, make sure that you're being cognizant of the MVC framework.
+<!-- * In a specific artist's show page, the names of the instruments that the artist plays should be dynamically listed. When you're building out this feature, make sure that you're being cognizant of the MVC framework. -->
 
   * A nice to have feature: On the artist's show page, have each of the instruments listed link to the respective show page of the instrument (see below).
 
